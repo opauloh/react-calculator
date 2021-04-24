@@ -8,9 +8,14 @@
   padding: 10px 0;
   text-align: center;
   cursor: pointer;
-
+  transition: all 0.3s;
   &:hover {
     color: #fff;
+    background-color: lighten(#263238, 10%);
+  }
+  &:active {
+    color: #fff;
+    background-color: lighten(#263238, 20%);
   }
   &:nth-child(4n - 1) {
     margin: 0 15px;
