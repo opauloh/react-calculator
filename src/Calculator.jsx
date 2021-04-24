@@ -1,13 +1,16 @@
-import * as React from 'react';
+import React from 'react';
 import { KeyPad, Display } from './components';
 import styles from './Calculator.module.scss';
+import { CalculatorProvider } from './contexts';
 
 const Calculator = () => {
   return (
-    <div className={styles.calculator}>
-      <Display />
-      <KeyPad />
-    </div>
+    <CalculatorProvider>
+      <div className={styles.calculator}>
+        <Display />
+        <KeyPad />
+      </div>
+    </CalculatorProvider>
   );
 };
 
