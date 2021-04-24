@@ -2,8 +2,12 @@
   margin-bottom: 5px;
   border: none;
   background: #37474f;
-  height: 35px;
+  height: 2.4rem;
   padding: 0 15px;
   border-radius: 4px;
   color: #cfd8dc;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
